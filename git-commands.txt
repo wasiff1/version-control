@@ -1,1 +1,36 @@
+git init => To initialize the empty git repository.
+========
+git help => To get the most frequently used git command
+=======
+git config => Used to configure user details with git bash.
+=======
+git add =>  Used to add files in staging area.
+=======
+git status => To check which files are added to staging area or not
+=========
+git commit => It used to commit the files from staging area to local repository.
+=========
+git remote add => To add the remote repository url to our working tree
+=========
+git push => It used to send the changes from local repository to remote repo
+========
+git clone => It used to download the complete project from remote reposotory to our local
+=========
+git restore => Used to unstage the file and discard the changes 
+========
+git log => Used to check the commit history
+=======
+git rm => Used to remove the file from remote repository (after git rm we need to commit and push that remove)
+======
+git revert => Used to uncommit the changes (after git revert we need to commit and push)
+======
+git pull => Used to download the latest changes from remote repo to local
+=======
+merge conflict => When the changes are on the same file same line then there is chances of getting merge conflict
+=============  when we do git pull then there is chances of getting merge conflict.
+Then we need to resolve merge conflict and then we need to push after removing jargon code generated during conflict
+
+
+git branches
+===========
 

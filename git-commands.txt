@@ -32,5 +32,39 @@ Then we need to resolve merge conflict and then we need to push after removing j
 
 
 git branches
+============
+In project multiple teams will be involved 
+CR Teams , prod Teams , Enhancement Team , R & D Team
+
+=> When multiple Teams are working paralelly code integration becomes difficult.
+
+=> In every repository below branches might be available
+1) main/master
+2) develop
+3) feature
+4) research
+5) staging
+6) release
+
+=> Every Teams should have separate code base for easy maintenence
+
+=> Under one repository multiple branches will be created and using branches multiple teams can work paralelly.
+
+=> We clone git repo using clone command (it will clone default branch) 
+
+=>  git checkout <branch  name> - to change branch or switch from one branch to another
+============================
+
+=> We can clone particular branch code also using below command
+ git clone -b  <branch name> <repo-url>
+
+=> We can check out working tree pointing to which branch using
+git branch
+
+pull request (PR) => pull request is used to merge changes from one branch to another
 ===========
+
+
+
+
 

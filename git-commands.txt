@@ -1,4 +1,5 @@
 git init => To initialize the empty git repository.
+git ignorefile  => whatever mentioned in git ignore file will not be committed 
 ========
 git help => To get the most frequently used git command
 =======
@@ -63,6 +64,35 @@ git branch
 
 pull request (PR) => pull request is used to merge changes from one branch to another
 ===========
+
+git pull vs git fetch
+=====================
+git fetch => is used donwload the latest changes from remote to local repository but changes will bring to working tree
+Working Tree =>  means your working code or current branch
+
+--------------------------------------------------
+| Aspect               | git fetch | git pull |
+| -------------------- | --------- | -------- |
+| Downloads changes    | ✅         | ✅        |
+| Updates local branch | ❌         | ✅        |
+| Risk of conflicts    | ❌         | ✅        |
+| Safe for review      | ✅         | ❌        |
+| One-step command     | ❌         | ✅        |
+
+git merge => to merge changes from one branches to another branch  + maintaining the commit history also
+
+git rebase => to merge changes from one branches to another branch.not maintain commit history
+
+git stash  =>git stash temporarily saves your uncommitted changes.
+=========
+git stash apply => Bring back stash (but keep it)
+
+git diff => git diff shows the difference between changes in your code — what’s added, removed, or modified.
+👉 Think: “What exactly did I change?”
+
+git tag => Git tag marks a specific commit with a name (usually a release).
+Used for versioning, releases, and milestones.
+Tags are immutable (don’t move like branches).
 
 
 
